@@ -19,6 +19,7 @@
 }
 
 /* css root variables that can be used anywhere in the app */
+/* good to avoid repeating code if using multiple times */
 :root {
   --color-bg: #1f1f38;
   /* on containers */
@@ -28,6 +29,8 @@
   --color-primary-variant: rgba(77,181,255,0.4);
   --color-white: #fff;
   --color-light: rgba(255,255,255,0.6);
+
+  ---transition: all 400ms ease;
 
   /* for media queries */
   --container-width-lg: 75%;
@@ -49,5 +52,120 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: ; */
+  /* background-color: #DFDBE5; */
+  /* image sourced from https://codepen.io/bitmap/pen/AzowBq */
+  background-image: repeating-linear-gradient(90deg, rgba(16, 36, 72, 0.25), var(--color-bg, 0.25) 5px, transparent 50px, transparent 7px);
+  background-size: 11px;
+}
+  /* background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%239C92AC' fill-opacity='0.04' fill-rule='evenodd'/%3E%3C/svg%3E");  */
+
+
+/* General styles */
+.container {
+  width: var(--container-width-lg);
+  /* positions it in the middle, horizontally  */
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+  /* MIGHT NOT APPLY TO ALL ELEMENTS */
+  text-align:center
+}
+
+/* each section of page will be wrapped in a section element to allow white space inbetween sections */
+section {
+  margin-top: 8rem;
+}
+
+/* the h5 is above the section title (h2) */
+/* targeting the child elements for each specific size */
+section > h2, 
+section, h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color:var(--color-primary);
+  transition: var(---transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+/* buttons */
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem, 1.2rem;
+  border-radius: 0.4rem;
+  /* NOT SEEING THE DIFFERENCE OF WHAT IT DOES */
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(---transition);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+/* images */
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Media Queries -Medium devices (tablets)*/
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+/* this overrides the section element from earlier since it is nested with the media element */
+  section {
+  margin-top: 6rem;
+  }
+}
+
+/* Media Queries -Small devices (mobile)*/
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+  margin-bottom: 2rem;
+  }
+}
+/* call to action buttons */
+.cta {
+  text-align: center;
 }
