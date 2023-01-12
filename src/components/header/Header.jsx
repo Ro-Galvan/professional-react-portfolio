@@ -1,7 +1,8 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.jpg'
+// used https://pinetools.com/round-corners-image to round image
+import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
 
 export default function Header() {

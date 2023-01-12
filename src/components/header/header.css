@@ -1,0 +1,62 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  /* makes the picture cutoff */
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  /* contains to the header section only-if you look at inspection editor the box was taking up the entire screen then it went to header section only */
+  height: 100%;
+  position: relative;
+}
+
+/* call to action buttons */
+.cta {
+  margin-top: 2.5rem;
+  /* ONLY USE IF YOU ADD 2nd button like contact me */
+  /* display: flex; */
+  /* gap: 1.2rem; */
+  /* justify-content: center; */
+}
+
+/* social buttons */
+/* if you want them at the top of page */
+/* .header__socials {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+} */
+
+/* if you want them on left side of page */
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.me {
+  background: var(--color-primary);
+  /* 2nd option */
+  /* background: linear-gradient(var(--color-primary)); */
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  /* to position in the middle subtract half the width from 50% */
+  left: calc(50% - 11rem);
+  /* or */
+  /* left: 50%;
+  transform: translateX(-50%); */
+  /* display: flex; */
+  margin-top: 4rem;
+  /* to get an arch on background */
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 4rem 1.5rem 1.5rem 1.5rem;
+}
