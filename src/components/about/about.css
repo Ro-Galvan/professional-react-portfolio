@@ -1,0 +1,6 @@
+.about__container {
+  display: grid;
+  /* for when I had an image to the left/right */
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
