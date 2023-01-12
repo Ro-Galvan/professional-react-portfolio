@@ -1,0 +1,34 @@
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: .7rem 1.5rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  border-radius: 3rem;
+  /* backdrop-filter: blur(15px); */
+}
+
+nav a {
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  /* color: var(--color-light); */
+  font-size: 1.1rem;
+}
+
+/* nav a:hover {
+  background-color: rgba(0, 0, 0, 0.3);;
+} */
+
+/* if you implement the below it will have a circle since I added a class called active to home page on Nav.jsx-- I removed it for now */
+/* nav a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+} */
