@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.jpg'
+import HeaderSocials from './HeaderSocials'
 
 export default function Header() {
   return (
@@ -13,6 +14,8 @@ export default function Header() {
       <h1>Rocio Galvan</h1>
       <h5 className="text-light">Full-stack Developer</h5>
       <CTA />
+      <HeaderSocials />
+      
       <div className="me">
         <img src={ME} alt="pictureOfRocio" />
       </div>
