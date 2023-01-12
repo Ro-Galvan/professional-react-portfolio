@@ -4,6 +4,7 @@ import './contact.css'
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+    // to link the icons to take you to corresponding section
+    <section id='contact'>Contact</section>
   )
 }

@@ -84,6 +84,7 @@ h1 {
 /* each section of page will be wrapped in a section element to allow white space inbetween sections */
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 /* the h5 is above the section title (h2) */
