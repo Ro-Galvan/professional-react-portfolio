@@ -17,8 +17,8 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <MdWork className='about__icon'/>
-              <h5>Experience</h5>
-              <small> 10 + years working</small>
+              <h5>Work Experience</h5>
+              <small> 10+ years</small>
             </article>
             <article className='about__card'>
               <SiJavascript className='about__icon'/>
@@ -33,12 +33,12 @@ const About = () => {
           </div>
           <br />
           <p>
-          Career transitioning professional looking over 10 years of fast-paced logistics, management, and customer-oriented experience.
+          Career transitioning professional with fast-paced logistics, people management, and customer-oriented experience.
           </p>
 
           <br />
           <p>
-            My interest in web development started in 2018 when I was living in Australia. I was looking for things to do in my spare time and came across a web intro course through General Assembly. It was a one night course but I was so intrigued and wished I had the funds to take the full course. It took many years for that wish to come true but in 2022 I made it happen! I switched careers from logistics and earned two certificates in full-stack and back-end development.
+            My interest in web development started in 2018 when I was living in Australia. I was looking for things to do in my spare time and came across an coding intro course through General Assembly. It was a short one night course but I was so intrigued and wished I had the funds to take the full course. It took many years for that wish to come true but in 2022 I made it happen! I switched careers from logistics and earned two certificates in full-stack and back-end development.
             </p>   
         </div>
       </div>

@@ -74,9 +74,9 @@ header {
 
 /* Media Queries -Medium devices (tablets)*/
 @media screen and (max-width: 1024px) {
-  .container {
+  /* .container {
     background-color: brown;
-  }
+  } */
   .header {
     height: 68vh;
   }
@@ -84,9 +84,9 @@ header {
 }
 /* Media Queries -Small devices (phones)*/
 @media screen and (max-width: 600px) {
-  .container {
+  /* .container {
     background-color: pink;
-  }
+  } */
   .header {
     height: 100vh;
   }

@@ -1,6 +1,72 @@
 .about__container {
   display: grid;
-  /* for when I had an image to the left/right */
-  grid-template-columns: 35% 50%;
-  gap: 15%;
+  /* for when I had an image to the left/right 1:29 */
+  /* grid-template-columns: 35% 50%; */
+  /* gap: 15%; */
+}
+
+.about__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  /* align-items: center; */
+}
+
+.about__card {
+  background: var(--color-bg-variant);
+  border: .3px solid;
+  border-radius: 1rem;
+  padding: .8rem;
+  /* text-align: center; */
+  /* transition: var(--transition); */
+}
+/* not really needed for now since not clickable 1:33*/
+/* .about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+} */
+
+.about__icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  /* margin-bottom: 1rem; */
+}
+
+.about__card h5 {
+  font-size: .85rem;
+}
+
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+/* not needed now */
+/* .about__content p {
+color: var(--color-light);
+} */
+
+/* Media Queries -Medium devices (tablets)*/
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+  }
+  .header {
+    height: 68vh;
+  }
+
+}
+/* Media Queries -Small devices (phones)*/
+@media screen and (max-width: 600px) {
+  .container {
+    background-color: pink;
+  }
+  .header {
+    height: 100vh;
+  }
+
+  /* .header__socials, .scroll__down {
+    display: none;
+  } */
 }
