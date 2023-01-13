@@ -52,21 +52,33 @@ color: var(--color-light);
   .about__container {
     grid-template-columns: 1fr;
   }
-  .header {
-    height: 68vh;
+  .about__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .about__content p {
+    margin:  1rem 0 1.5rem;
   }
 
 }
 /* Media Queries -Small devices (phones)*/
 @media screen and (max-width: 600px) {
-  .container {
-    background-color: pink;
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
   }
-  .header {
-    height: 100vh;
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 
-  /* .header__socials, .scroll__down {
-    display: none;
-  } */
+  .about__content {
+    text-align: center;
+  }
+
+  .about__content p {
+    margin: 1.5rem 0;
+  }
+
 }
