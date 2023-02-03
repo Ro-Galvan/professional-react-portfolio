@@ -10,32 +10,36 @@ export default function Portfolio() {
       <div className="container portfolio__container">
         {/* Project 1 */}
         <article className='portfolio__item'>
-          <div className='portfolio__item-image'></div>
+          <div className='portfolio__item-image'>
           <img src={IMG1} alt="regex tutorial" />
+          </div>
           <h3>This is a portfolio item title</h3>
           <a href="http://github.com" className='btn' target="_blank" rel="noreferrer">Github</a>
           <a href="http://TBD.com" className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
         </article>
          {/* Project 2 */}
          <article className='portfolio__item'>
-          <div className='portfolio__item-image'></div>
+          <div className='portfolio__item-image'>
           <img src={IMG1} alt="regex tutorial" />
+          </div>
           <h3>This is a portfolio item title</h3>
           <a href="http://github.com" className='btn' target="_blank" rel="noreferrer">Github</a>
           <a href="http://TBD.com" className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
         </article>
          {/* Project 3 */}
          <article className='portfolio__item'>
-          <div className='portfolio__item-image'></div>
+          <div className='portfolio__item-image'>
           <img src={IMG1} alt="regex tutorial" />
+          </div>
           <h3>This is a portfolio item title</h3>
           <a href="http://github.com" className='btn' target="_blank" rel="noreferrer">Github</a>
           <a href="http://TBD.com" className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
         </article>
                  {/* Project 3 */}
                  <article className='portfolio__item'>
-          <div className='portfolio__item-image'></div>
+          <div className='portfolio__item-image'>
           <img src={IMG1} alt="regex tutorial" />
+          </div>
           <h3>This is a portfolio item title</h3>
           <a href="http://github.com" className='btn' target="_blank" rel="noreferrer">Github</a>
           <a href="http://TBD.com" className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
