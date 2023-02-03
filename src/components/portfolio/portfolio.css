@@ -15,11 +15,22 @@
 
 .portfolio__item:hover {
   border-color: var(--color-primary-variant);
-  /* background: transparent; */
-  background: var(--color-white);
+  background: transparent;
+  /* background: var(--color-white); */
 }
 
 .portfolio__item-image img{
   border-radius: 1rem;
+  overflow: hidden;
+}
 
+.portfolio__item h3 {
+  margin: 1.2rem 0 1rem;
+}
+
+.portfolio__item-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }

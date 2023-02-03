@@ -118,7 +118,7 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.75rem, 1.2rem;
+  padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   /* NOT SEEING THE DIFFERENCE OF WHAT IT DOES */
   cursor: pointer;
