@@ -59,7 +59,7 @@ header {
   /* to get an arch on background */
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 4.3rem 1.5rem 1.5rem 1.5rem;
+  /* padding: 1.3rem 1.5rem 1.5rem 1.5rem; */
 }
 
 /* scroll down function */
