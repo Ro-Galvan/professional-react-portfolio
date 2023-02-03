@@ -4,6 +4,7 @@ import IMG1 from '../../assets/regex.jpg'
 
 export default function Portfolio() {
   return (
+    /* can put all projects into an array and dynamically display them in the future- 2:17 */
     <section id='portfolio'>
       <h5>My Work</h5>
       <h2>Portfolio</h2>
