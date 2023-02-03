@@ -9,7 +9,7 @@ header {
   text-align: center;
   /* contains to the header section only-if you look at inspection editor the box was taking up the entire screen then it went to header section only */
   height: 100%;
-  position: relative;
+  /* position: relative; */
 }
 
 /* call to action buttons */
@@ -47,7 +47,7 @@ header {
   /* 2nd option */
   /* background: linear-gradient(var(--color-primary), transparent); */
   width: 22rem;
-  height: 30rem;
+  height: 25rem;
   position: absolute;
   /* to position in the middle subtract half the width from 50% */
   left: calc(50% - 11rem);
