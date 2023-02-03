@@ -1,0 +1,10 @@
+.portfolio__container {
+  display: grid;
+  /*can change to 3 or 4 even depending on how many you want in a row */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.portfolio__items {
+  background: var(--color-bg-variant)
+}

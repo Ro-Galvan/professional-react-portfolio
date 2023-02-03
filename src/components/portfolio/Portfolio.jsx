@@ -32,6 +32,14 @@ export default function Portfolio() {
           <a href="http://github.com" className='btn' target="_blank" rel="noreferrer">Github</a>
           <a href="http://TBD.com" className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
         </article>
+                 {/* Project 3 */}
+                 <article className='portfolio__item'>
+          <div className='portfolio__item-image'></div>
+          <img src={IMG1} alt="regex tutorial" />
+          <h3>This is a portfolio item title</h3>
+          <a href="http://github.com" className='btn' target="_blank" rel="noreferrer">Github</a>
+          <a href="http://TBD.com" className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
+        </article>
       </div>
     </section>
   )
