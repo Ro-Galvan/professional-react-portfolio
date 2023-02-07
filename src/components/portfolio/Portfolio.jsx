@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/openMeetingToolkit.jpg'
+// import IMG1 from '../../assets/openMeetingToolkit.jpg'
+import IMG1 from '../../assets/openMeetingToolkit.png'
 import IMG2 from '../../assets/hobbyBox.png'
 import IMG3 from '../../assets/gameStore.jpg'
 import IMG4 from '../../assets/group-project-cosmic-dust.jpg'
@@ -15,7 +16,7 @@ export default function Portfolio() {
         {/* Project 1 */}
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG1} alt="Open Meeting Toolkit" />
+            <img src={IMG1} width = "480" height = "430"alt="Open Meeting Toolkit" />
           </div>
           <h3>Open Meeting Toolkit</h3>
           <div className='portfolio__item-cta'>
@@ -37,7 +38,7 @@ export default function Portfolio() {
         {/* Project 3 */}
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG3} alt="Java Game Store App" />
+            <img src={IMG3} width = "480" height = "430" alt="Java Game Store App" />
           </div>
           <h3>Java Game Store App</h3>
           <div className='portfolio__item-cta'>
@@ -48,7 +49,7 @@ export default function Portfolio() {
         {/* Project 4 */}
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG4} alt="Space Project" />
+            <img src={IMG4} width = "480" height = "430" alt="Space Project" />
           </div>
           <h3>Space Project</h3>
           <div className='portfolio__item-cta'>
