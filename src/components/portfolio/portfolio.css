@@ -21,7 +21,8 @@
 
 .portfolio__item-image img{
   border-radius: 1rem;
-  overflow: hidden;
+  /* overflow: hidden; */
+  height: 70vh;
 }
 
 .portfolio__item h3 {
