@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/professional-react-portfolio/static/css/main.223ac31b.css",
+    "main.js": "/professional-react-portfolio/static/js/main.2a6c406b.js",
+    "static/media/hobbyBox.png": "/professional-react-portfolio/static/media/hobbyBox.405c18bcd80e1fc21bb8.png",
+    "static/media/openMeetingToolkit.png": "/professional-react-portfolio/static/media/openMeetingToolkit.f3ff0e9f5422bd6acfe1.png",
+    "static/media/me.png": "/professional-react-portfolio/static/media/me.a1ed47a9f97f5eae040e.png",
+    "static/media/RGalvanResume (3).pdf": "/professional-react-portfolio/static/media/RGalvanResume (3).c98d6e791b51f86578df.pdf",
+    "static/media/group-project-cosmic-dust.jpg": "/professional-react-portfolio/static/media/group-project-cosmic-dust.8adb108f3e6320d90260.jpg",
+    "static/media/gameStore.jpg": "/professional-react-portfolio/static/media/gameStore.cb1302fbfeed4b661a14.jpg",
+    "index.html": "/professional-react-portfolio/index.html",
+    "main.223ac31b.css.map": "/professional-react-portfolio/static/css/main.223ac31b.css.map",
+    "main.2a6c406b.js.map": "/professional-react-portfolio/static/js/main.2a6c406b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.223ac31b.css",
+    "static/js/main.2a6c406b.js"
+  ]
+}
