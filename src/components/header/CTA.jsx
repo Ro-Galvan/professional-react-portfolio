@@ -1,6 +1,6 @@
 import React from 'react'
 // assests folder needs to be under src - Relative imports outside of src/ are not supported. Either would have to addd href and not import it
-import CV from '../../assets/RGalvanResume (3).pdf'
+import CV from '../../assets/Rocio Galvan - Full Stack Developer Resume.docx.pdf'
 
 
 export default function CTA() {

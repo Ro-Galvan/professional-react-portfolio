@@ -38,7 +38,7 @@ const About = () => {
 
           <br />
           <p>
-            My interest in web development started in 2018 when I was living in Australia. I was looking for things to do in my spare time and came across an coding intro course through General Assembly. It was a short one night course but I was so intrigued and wished I had the funds to take the full course. It took many years for that wish to come true but in 2022 I made it happen! I switched careers from logistics and earned two certificates in full-stack and back-end development.
+            My interest in web development started in 2018 when I was living in Australia. I was looking for things to do in my spare time and came across an intro to coding course through General Assembly. It was a short one night course but I was so intrigued and wished I had the funds to take the full course. It took many years for that wish to come true but in 2022 I made it happen! I switched careers from logistics and so far have three certificates in full-stack and back-end development.
             </p>   
         </div>
       </div>
